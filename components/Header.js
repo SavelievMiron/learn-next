@@ -4,9 +4,12 @@ const Header = () => {
     const x = 5
     return (
         <div>
-            <h1>
+            <h1 className={headerStyles.title}>
                 <span>WebDeb</span> News
             </h1>
+            <p className={headerStyles.description}>
+                Keep Up to Date with the latest web dev news
+            </p>
             <style jsx>
                 {`
                 .title {
